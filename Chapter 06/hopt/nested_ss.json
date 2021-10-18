@@ -1,0 +1,15 @@
+{
+  "layer0": {
+    "_type": "choice",
+    "_value": [
+      {
+        "_name": "Empty"
+      },
+      {
+        "_name": "Conv",
+        "kernel_size": {
+          "_type": "choice",
+          "_value": [1, 2, 3, 5]
+        }
+      },
+      ...
